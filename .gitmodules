@@ -1,0 +1,3 @@
+[submodule "external/sensel-api"]
+	path = external/sensel-api
+	url = https://github.com/sensel/sensel-api

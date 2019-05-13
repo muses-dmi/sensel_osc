@@ -1,0 +1,17 @@
+[package]
+name = "sensel_osc"
+version = "0.1.0"
+authors = ["Benedict Gaster <benedict.gaster@uwe.ac.uk>"]
+edition = "2018"
+
+[dependencies]
+serde_json = "1.0.39"
+env_logger = "0.6"
+log = "0.4"
+getopts = "0.2"
+bitflags = "1.0.4"
+rosc = "0.1.6"
+
+[build-dependencies]
+bindgen = "0.49.0"
+cc = "1.0"
